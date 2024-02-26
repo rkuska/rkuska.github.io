@@ -3,7 +3,9 @@
 ---
 // Customization Variables
 
-$accent: #FF0F00;
+$purple: #b9a0ff;
+$darkgreen: #003f30;
+$lightgreen: #edfae4;
 
 $max-width: 740px;
 $med-width: 600px;
@@ -14,12 +16,12 @@ $small-width: 480px;
 body {
     margin: 0;
     font-family: "Inconsolata";
-    background-color: #FFFFDD;
+    background-color: $lightgreen;
     min-height: 100%;
 }
 a {
     text-decoration: none;
-    color: $accent;
+    color: $purple;
 }
 a:hover {
     text-decoration: underline;
@@ -64,7 +66,7 @@ code {
     padding: 30px 0 20px 0;
     .site-title{
         font-size: 32px;
-        color: #272727;
+        color: #b9a0ff;
         display: inline-block;
     }
 }
@@ -75,7 +77,7 @@ code {
     margin-bottom:1em;
     .title{
         max-width: 500px;
-        color: #272727;
+        color: $darkgreen;
         display: inline-block;
         font-size: 30px;
     }
@@ -103,6 +105,7 @@ code {
     font-size: xx-large;
     font-weight: bold;
     line-height: 2;
+    color: $darkgreen;
 }
 .page-subtitle{
     text-align: center;
@@ -240,10 +243,10 @@ code {
         color: #eb9800;
     }
     .color-green {
-        color:#00eb1d;
+        color: $darkgreen;
     }
     .color-blue{
-        color: #0062ff;
+        color: $purple;
     }
     .highlight-red {
         background-color: #ffaaaa;
@@ -255,7 +258,7 @@ code {
         background-color: #aaffad;
     }
     .highlight-blue {
-        background-color: #d8e7ff;
+        background-color: $purple;
     }
 }
 
